@@ -9,6 +9,7 @@ const Counter = () => {
         onClick={() => {
           setNumber(number + 5);
           setNumber((n) => n + 1);
+          setNumber(9999);
         }}>
         +3
       </button>
